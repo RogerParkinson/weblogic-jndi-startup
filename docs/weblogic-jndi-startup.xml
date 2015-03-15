@@ -7,10 +7,9 @@
 		<Author>Roger Parkinson</Author>
 		<Revision>$Revision$</Revision>
 		<image>logo.jpg</image>
-		<xi:include href="weblogic-jndi-startup.log"/>
 		<references>
-			<reference t="maduradocs" url="http://code.google.com/p/maduradocs/" />
-			<reference t="maduraconfiguration" url="http://code.google.com/p/maduraconfiguration/" />
+			<reference t="maduradocs" url="http://github.com/RogerParkinson/weblogic-jndi-startup" />
+			<reference t="maduraconfiguration" url="http://github.com/RogerParkinson/maduraconfiguration" />
 			<reference t="Apache Licence 2.0" url="http://www.apache.org/licenses/LICENSE-2.0" />
 		</references>
 	</title>
@@ -26,7 +25,7 @@
 
 <p>Then go into the console and create a startup/shutdown class (the page is called Startup and Shutdown Classes and you add one). Your page should look like this:</p>
 
-<img href="http://weblogic-jndi-startup.googlecode.com/files/jndi.png" width="16cm"/>
+<img href="images/jndi.png" width="16cm"/>
 
 <p>You enter the class name (always nz.co.senanque.jndi.WebLogicJndiStartup).
 I set 'Failure is Fatal' but be careful, if you do something wrong your server won't start.
